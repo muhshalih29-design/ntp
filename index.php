@@ -6335,7 +6335,7 @@ if ($currentPage === 'dashboard') {
                 const pad = function(n) { return String(n).padStart(2, '0'); };
                 const dateLabel = now.getFullYear() + '-' + pad(now.getMonth() + 1) + '-' + pad(now.getDate());
                 const xml = [
-                    '<?' + 'xml version="1.0" encoding="UTF-8"?>',
+                    '<' + '?xml version="1.0" encoding="UTF-8"?>',
                     '<brs>',
                     '  <source>perkembangan-nilai-tukar-petani-provinsi-lampung-februari-2026.pdf</source>',
                     '  <generated_at>' + xmlEscape(now.toISOString()) + '</generated_at>',
